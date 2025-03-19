@@ -43,3 +43,7 @@
 ## 0.0.10
 
 * Changed yMd format d.M.y -> dd.MM.yyyy.
+
+## 0.0.11
+
+* Fix date picker format MM/dd/yyyy -> dd.MM.yyyy.

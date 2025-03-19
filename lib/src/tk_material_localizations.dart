@@ -441,7 +441,7 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
       return null;
     }
 
-    // Assumes US mm/dd/yyyy format
+    // Assumes dd.MM.yyyy format
     final List<String> inputParts = inputString.split('.');
     if (inputParts.length != 3) {
       return null;
@@ -452,12 +452,12 @@ class TkMaterialLocalization extends GlobalMaterialLocalizations {
       return null;
     }
 
-    final int? month = int.tryParse(inputParts[0], radix: 10);
+    final int? month = int.tryParse(inputParts[1], radix: 10);
     if (month == null || month < 1 || month > 12) {
       return null;
     }
 
-    final int? day = int.tryParse(inputParts[1], radix: 10);
+    final int? day = int.tryParse(inputParts[0], radix: 10);
     if (day == null || day < 1 || day > _getDaysInMonth(year, month)) {
       return null;
     }

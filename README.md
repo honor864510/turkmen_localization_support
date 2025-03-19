@@ -37,7 +37,7 @@ Simple example of usage:
 There are no any 'tm' language code here: https://www.iana.org/assignments/language-subtag-registry/language-subtag-registry. Support for Turkmen language is possible only by using 'tk' tag.
 
 ## Contributing
-1. Fork it (https://github.com/AtamyratBabayev/turkmen_localization_support/fork)
+1. Fork it (https://github.com/honor864510/turkmen_localization_support/fork)
 2. Create your feature branch (git checkout -b feature/fooBar)
 3. Commit your changes (git commit -am 'Add some fooBar')
 4. Push to the branch (git push origin feature/fooBar)
