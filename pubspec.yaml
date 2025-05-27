@@ -13,7 +13,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   # Localizations
-  intl: ^0.19.0
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
