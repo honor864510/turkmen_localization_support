@@ -207,9 +207,9 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
 
   @override
   String get clearButtonLabel => 'Arassalamak';
-  
+
   @override
-  String get backButtonLabel => 'Yza geç';
+  String get backButtonLabel => 'Yza';
 
   @override
   String get cancelButtonLabel => 'Goý bolsun';
