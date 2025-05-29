@@ -47,3 +47,13 @@
 ## 0.0.11
 
 * Fix date picker format MM/dd/yyyy -> dd.MM.yyyy.
+
+## 0.0.12
+
+* Fix typo 'Dentýabr' -> 'Sentýabr'
+* BREAKING: update intl version to ^0.20.2.
+
+## 0.0.13
+
+* Add contributing guide
+* Add missing changelog for version 0.0.12
