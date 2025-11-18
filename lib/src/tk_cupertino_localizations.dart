@@ -6,17 +6,14 @@ import 'package:intl/date_symbols.dart' as intl;
 import 'package:intl/date_symbol_data_custom.dart' as date_symbol_data_custom;
 import 'tk_patterns.dart';
 
-class _TkCupertinoLocalization
-    extends LocalizationsDelegate<CupertinoLocalizations> {
+class _TkCupertinoLocalization extends LocalizationsDelegate<CupertinoLocalizations> {
   const _TkCupertinoLocalization();
 
   @override
   bool isSupported(Locale locale) => locale.languageCode == "tk";
 
   @override
-  bool shouldReload(
-          covariant LocalizationsDelegate<CupertinoLocalizations> old) =>
-      false;
+  bool shouldReload(covariant LocalizationsDelegate<CupertinoLocalizations> old) => false;
 
   @override
   Future<CupertinoLocalizations> load(Locale locale) async {
@@ -58,8 +55,7 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
     required super.weekdayFormat,
   });
 
-  static const LocalizationsDelegate<CupertinoLocalizations> delegate =
-      _TkCupertinoLocalization();
+  static const LocalizationsDelegate<CupertinoLocalizations> delegate = _TkCupertinoLocalization();
 
   @override
   String get alertDialogLabel => r'Bildiriş';
@@ -213,4 +209,22 @@ class TkCupertinoLocalization extends GlobalCupertinoLocalizations {
 
   @override
   String get cancelButtonLabel => 'Goý bolsun';
+
+  @override
+  String get expansionTileExpandedHint => 'ýygnamak üçin iki gezek basyň';
+
+  @override
+  String get expansionTileCollapsedHint => 'giňeltmek üçin iki gezek basyň';
+
+  @override
+  String get expansionTileExpandedTapHint => 'Ýygnamak';
+
+  @override
+  String get expansionTileCollapsedTapHint => 'Has giňişleýin görmek üçin giňeltmek';
+
+  @override
+  String get expandedHint => 'Ýygnalan';
+
+  @override
+  String get collapsedHint => 'Giňeldilen';
 }
