@@ -57,3 +57,7 @@
 
 * Add contributing guide
 * Add missing changelog for version 0.0.12
+
+## 0.0.14
+
+* Added translations for CupertinoExpansionTile semantic hints.
